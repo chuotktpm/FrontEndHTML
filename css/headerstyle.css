@@ -1,0 +1,197 @@
+body{
+    margin: auto;
+}
+header{
+    position: relative;
+    width: 1920px;
+    height: 1000px;
+}
+.menu{
+    background-color: aquamarine;
+    position: absolute;
+    width: 1920px;
+    height: 72px;
+}
+.logo-main{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+    z-index: 1;
+}
+.ion-navicon{
+    font-size: 30px;
+    font-family: "Ionicons";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.7;
+    position: absolute;
+    right: 111px;
+    top: 39.45px;
+    z-index: 8;
+}
+
+.ion-ios-cart-outline{
+    font-size: 30px;
+    font-family: "Ionicons";
+    color: rgba(255, 255, 255, 0.702);
+    text-transform: uppercase;
+    line-height: 0.7;
+    position: relative;
+    left: 1718px;
+    top: 39.45px;
+    z-index: 8;
+}
+
+.ellipse-2{
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 1733px;
+    top: 38.45px;
+    width: 18px;
+    height: 18px;
+    z-index: 9;
+}
+
+.number-2{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.75;
+    position: absolute;
+    left: 1738.5px;
+    top: 36.45px;
+    z-index: 10;
+}
+
+.rectangle-2{
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    left: 375px;
+    top: 662px;
+    width: 197px;
+    height: 48px;
+    z-index: 1;
+}
+
+.discover-now{
+    font-size: 16px;
+    font-family: "Fira Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    position: absolute;
+    left: 29.5px;
+    top: 12px;
+    z-index: 1;
+    letter-spacing: 2.4px;
+}
+
+.spring-2017{
+    font-size: 24px;
+    font-family: "Fira Sans";
+    color: rgb(105, 105, 105);
+    line-height: 1.333;
+    text-align: left;
+    position: absolute;
+    left: 379px;
+    top: 343px;
+    z-index: 1;
+    letter-spacing: 12.2px;
+}
+
+.girl{
+    position: absolute;
+    left: 860px;
+    top: 0px;
+    width: 935px;
+    height: 1001px;
+    z-index: 1;
+}
+
+.bg-copy-3{
+    background-image: -moz-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
+    background-image: -webkit-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
+    background-image: -ms-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 1000px;
+    z-index: 0;
+}
+
+.it-s-your-shine-time{
+    font-size: 100px;
+    font-family: "Cormorant Garamond";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    position: absolute;
+    left: 376px;
+    top: 407px;
+    width: 803px;
+    height: 253px;
+    z-index: 2;
+    letter-spacing: 30px;
+}
+
+.social-header{
+    width: 122.5px;
+    height: 146.09px;
+    position: absolute;
+    left: 1698px;
+    top: 430px;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.social-header a{
+    font-size: 24px;
+    font-family: "Cormorant Garamond";
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    text-align: right;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+}
+
+.shape-1{
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    right: -99px;
+    width: 80px;
+    height: 1px;
+    z-index: 4;
+    display: none;
+}
+
+.fb:hover ~ .shape-1{
+    top: 15px;
+    display: block;
+}
+
+.tw:hover ~ .shape-1{
+    top: 55px;
+    display: block;
+}
+
+.is:hover ~ .shape-1{
+    top: 95px;
+    display: block;
+}
+
+.yt:hover ~ .shape-1{
+    top: 135px;
+    display: block;
+}

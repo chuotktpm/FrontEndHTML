@@ -1,0 +1,41 @@
+.brands{
+    width: 1920px;
+    height: 201px;
+    position: relative;
+}
+
+.logo-rolex{
+    position: absolute;
+    left: 400px;
+    top: 65px;
+}
+
+.logo-elle{
+    position: absolute;
+    left: 595px;
+    top: 76px;
+}
+
+.logo-diamond{
+    position: absolute;
+    left: 805px;
+    top: 74px;
+}
+
+.logo-jubilee{
+    position: absolute;
+    left: 1002px;
+    top: 59px;
+}
+
+.logo-triton{
+    position: absolute;
+    left: 1206px;
+    top: 63px;
+}
+
+.logo-pandora{
+    position: absolute;
+    left: 1382px;
+    top: 87px;
+}

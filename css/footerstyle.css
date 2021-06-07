@@ -1,0 +1,158 @@
+footer{
+    position: relative;
+    background-color: rgb(51, 51, 51);
+    width: 1920px;
+    height: 420px;
+}
+
+.social{
+    position: absolute;
+    left: 1321px;
+    top: 278px;
+    display: flex;
+    flex-basis: 10px;
+    width: 228px;
+    justify-content: space-around
+}
+
+.line-footer {
+    background-color: rgb(36, 36, 36);
+    opacity: 0.502;
+    position: absolute;
+    left: 376px;
+    top: 207px;
+    width: 1170px;
+    height: 1px;
+    z-index: 22;
+  }
+
+.cycle{
+    border-width: 2px;
+    border-color: rgb(105, 105, 105);
+    border-style: solid;
+    border-radius: 50%;
+    opacity: 0.502;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cycle:hover{
+    border-radius: 50%;
+    background-color: rgb(214, 186, 141);
+    border-color: rgb(214, 186, 141);
+    border-width: 2px;
+    width: 44px;
+    height: 44px;
+    z-index: 1;
+    position: relative;
+}
+
+.cycle:hover>.icon-footer{
+    color: rgb(51, 51, 51);
+}
+
+.icon-footer{
+    font-size: 18px;
+    font-family: "Ionicons";
+    color: rgb(171, 171, 171);
+    text-transform: uppercase;
+    line-height: 1.167;
+    text-align: center;
+}
+
+.logo-footer{
+    position: absolute;
+    left: 376px;
+    top: 61px;
+}
+
+.address-footer{
+    font-size: 14px;
+    font-family: "Fira Sans";
+    color: rgb(105, 105, 105);
+    line-height: 2;
+    text-align: left;
+    position: absolute;
+    left: 375px;
+    top: 288px;
+    letter-spacing: 0.1px;
+    z-index: 1;
+}
+
+.copyright-footer{
+    font-size: 14px;
+    font-family: "Fira Sans";
+    color: rgb(105, 105, 105);
+    line-height: 2;
+    text-align: left;
+    position: absolute;
+    left: 376px;
+    top: 100px;
+    left: 375px;
+    top: 316px;
+    z-index: 1;
+}
+
+
+
+.text-footer{
+    font-size: 14px;
+    font-family: "Fira Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.714;
+    position: absolute;
+    left: 667px;
+    top: 148px;
+    z-index: 2;
+}
+
+.text-footer a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #ababab;
+    letter-spacing: 1.4px;
+}
+
+.text-footer a:hover{
+    color: rgb(214, 186, 141);
+}
+
+.bg-subcribe{
+    border-width: 2px;
+    border-color: rgb(105, 105, 105);
+    border-style: solid;
+    position: absolute;
+    right: 374px;
+    top: 139px;
+    width: 154px;
+    height: 36px;
+    z-index: 29;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.subscribe {
+    font-size: 14px;
+    font-family: "Fira Sans";
+    color: rgb(171, 171, 171);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.714;
+    letter-spacing: 2.1px;
+    margin-left: 2px;
+  }
+
+.ion-email{
+    font-size: 20px;
+    font-family: "Ionicons";
+    color: rgb(214, 186, 141);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+  
