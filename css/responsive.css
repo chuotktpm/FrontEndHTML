@@ -1,0 +1,156 @@
+@media (min-width: 320px) and (max-width: 375px) {
+  /* Header */
+
+  /* Content */
+  
+  /* Brand */
+
+  /* Footer */
+}
+  
+@media (min-width: 375px) and (max-width: 425px) {
+  /* Header */
+      
+  /* Content */
+  
+  /* Brand */
+
+  /* Footer */
+}
+
+@media (max-width: 768px) {
+  /* Header */
+  header{
+    height: 500px;
+  }
+  .spring-2017{
+    zoom: 50%;
+    position: absolute;
+    left: 19.9%;
+    top: 343px;
+  }
+  h2.it-s-your-shine-time{
+    zoom: 50%;
+  }
+  .girl{
+    zoom: 50%;
+  }
+  /* Content */
+  .logo-main{
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 30px;
+    float: left;
+    z-index: 1;
+  }
+  .intro {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .intro0{
+    width: 100%;
+  }
+  .intro1{
+    width: 100%;
+  }
+  .intro2{
+    width: 100%;
+  }
+  .intro3{
+    width: 100%;
+  }
+  .intro4{
+    width: 100%;
+  }
+  .button-purchase{
+    zoom: 50%;
+  }
+  .it-start-with{
+    zoom: 80%;
+  }
+  /* Brand */
+
+  /* Footer */
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  /* Header */
+
+  /* Content */
+
+  /* Brand */
+
+  /* Footer */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Header */
+
+  /* Content */
+
+  /* Brand */
+
+  /* Footer */
+} 
+
+@media (max-width: 1024px) {
+  /* Header */
+
+  /* Content */
+  .intro0{
+    display: none;
+  }
+  .intro4{
+    display: none;
+  }
+  /* Brand */
+
+  /* Footer */
+} 
+  
+@media (min-width: 1024px) and (max-width: 1440px) {
+  /* Header */
+
+  /* Content */
+
+  /* Brand */
+
+  /* Footer */
+} 
+
+@media (max-width: 1440px) {
+  .social-header{
+    display: none;
+  }
+  h2.it-s-your-shine-time{
+    min-width: 610px;
+  }
+  .button-purchase{
+    top: 861px;
+  }
+
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+  /* Header */
+
+  /* Content */
+  
+  /* Brand */
+
+  /* Footer */
+}
+@media (min-width: 1920px) {
+  /* Header */
+
+  /* Content */
+  
+  /* Brand */
+
+  /* Footer */
+}

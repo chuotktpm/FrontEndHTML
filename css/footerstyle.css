@@ -1,30 +1,134 @@
-footer{
-    position: relative;
+.footer{
     background-color: rgb(51, 51, 51);
-    width: 1920px;
-    height: 420px;
+    width: 100%;
+    height: max-content;
 }
 
-.social{
-    position: absolute;
-    left: 1321px;
-    top: 278px;
-    display: flex;
-    flex-basis: 10px;
-    width: 228px;
-    justify-content: space-around
+.content-footer > a{
+    display: inline-block;
+    width: min-content;
+    height: max-content;
+    /* position: relative; */
+    /* left: 19.7%; */
+    /* top: 63px; */
+    margin-left: 19.7%;
+
+}
+
+.logo-footer{
+    position: relative;
+    top: 10px;
+}
+
+.content-footer{
+    padding-top: 53px;
+    padding-bottom: 67px;
+}
+
+.text-footer{
+    font-size: 14px;
+    font-family: "Fira Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.714;
+    margin-left: 5.6%;
+    width: 30%;
+    z-index: 2;
+    display: inline;
+}
+
+.text-footer a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #ababab;
+    letter-spacing: 1.4px;
+}
+
+.text-footer a:hover{
+    color: rgb(214, 186, 141);
+}
+
+.bg-subcribe{
+    border-width: 2px;
+    border-color: rgb(105, 105, 105);
+    border-style: solid;
+    margin-left: 8.3%;
+    width: 154px;
+    height: 36px;
+    z-index: 29;
+    align-items: center;
+    justify-content: space-evenly;
+    display: inline-flex;
+}
+
+.subscribe {
+    font-size: 14px;
+    font-family: "Fira Sans";
+    color: rgb(171, 171, 171);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.714;
+    letter-spacing: 2.1px;
+    margin-left: 2px;
+  }
+
+  .bg-footer{
+    padding-left: 19.7%;
+    width: 61%;
 }
 
 .line-footer {
     background-color: rgb(36, 36, 36);
     opacity: 0.502;
-    position: absolute;
-    left: 376px;
-    top: 207px;
-    width: 1170px;
+    width: 100%;
     height: 1px;
-    z-index: 22;
+    z-index: 2;
   }
+
+.end-footer{
+    padding-bottom: 50px;
+}
+
+.contact{
+    position: relative;
+    top: -35.3px;
+    left: 19.7%;
+}
+
+.address-footer{
+    font-size: 14px;
+    font-family: "Fira Sans";
+    color: rgb(105, 105, 105);
+    line-height: 2;
+    text-align: left;
+    letter-spacing: 0.15px;
+    z-index: 1;
+    width: 30%;
+    
+}
+
+.copyright-footer{
+    font-size: 14px;
+    font-family: "Fira Sans";
+    color: rgb(105, 105, 105);
+    text-align: left;
+    z-index: 1;
+    width: 20%;
+}
+
+.address-footer::after{
+    content: "\a";
+    white-space: pre;
+}
+
+.social{
+    position: relative;
+    display: flex;
+    width: 228px;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 69.3%;
+}
 
 .cycle{
     border-width: 2px;
@@ -63,91 +167,6 @@ footer{
     line-height: 1.167;
     text-align: center;
 }
-
-.logo-footer{
-    position: absolute;
-    left: 376px;
-    top: 61px;
-}
-
-.address-footer{
-    font-size: 14px;
-    font-family: "Fira Sans";
-    color: rgb(105, 105, 105);
-    line-height: 2;
-    text-align: left;
-    position: absolute;
-    left: 375px;
-    top: 288px;
-    letter-spacing: 0.1px;
-    z-index: 1;
-}
-
-.copyright-footer{
-    font-size: 14px;
-    font-family: "Fira Sans";
-    color: rgb(105, 105, 105);
-    line-height: 2;
-    text-align: left;
-    position: absolute;
-    left: 376px;
-    top: 100px;
-    left: 375px;
-    top: 316px;
-    z-index: 1;
-}
-
-
-
-.text-footer{
-    font-size: 14px;
-    font-family: "Fira Sans";
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.714;
-    position: absolute;
-    left: 667px;
-    top: 148px;
-    z-index: 2;
-}
-
-.text-footer a{
-    margin-left: 30px;
-    text-decoration: none;
-    color: #ababab;
-    letter-spacing: 1.4px;
-}
-
-.text-footer a:hover{
-    color: rgb(214, 186, 141);
-}
-
-.bg-subcribe{
-    border-width: 2px;
-    border-color: rgb(105, 105, 105);
-    border-style: solid;
-    position: absolute;
-    right: 374px;
-    top: 139px;
-    width: 154px;
-    height: 36px;
-    z-index: 29;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.subscribe {
-    font-size: 14px;
-    font-family: "Fira Sans";
-    color: rgb(171, 171, 171);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.714;
-    letter-spacing: 2.1px;
-    margin-left: 2px;
-  }
-
 .ion-email{
     font-size: 20px;
     font-family: "Ionicons";

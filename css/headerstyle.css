@@ -1,23 +1,36 @@
 body{
-    margin: auto;
+    margin: 0;
+    width: 100%;
+    /* overflow-x: hidden; */
 }
+
 header{
-    position: relative;
-    width: 1920px;
+    width: 100%;
     height: 1000px;
+    background-image: -moz-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
+    background-image: -webkit-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
+    background-image: -ms-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
+
 }
 .menu{
-    background-color: aquamarine;
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 72px;
 }
 .logo-main{
     position: absolute;
-    margin-top: 30px;
+    margin-top: 29px;
     margin-left: 100px;
     float: left;
     z-index: 1;
+}
+/* .slider{
+    position: absolute;
+} */
+nav{
+    position: absolute;
+    right: 5.9%;
+    top: 53.5%
 }
 .ion-navicon{
     font-size: 30px;
@@ -26,9 +39,14 @@ header{
     text-transform: uppercase;
     line-height: 0.7;
     position: absolute;
-    right: 111px;
-    top: 39.45px;
+    left: 0px;
     z-index: 8;
+}
+
+.cart {
+    position: absolute;
+    right: 8.5%;
+    top: 54%;
 }
 
 .ion-ios-cart-outline{
@@ -38,8 +56,7 @@ header{
     text-transform: uppercase;
     line-height: 0.7;
     position: relative;
-    left: 1718px;
-    top: 39.45px;
+    left: 0px;
     z-index: 8;
 }
 
@@ -47,8 +64,8 @@ header{
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    left: 1733px;
-    top: 38.45px;
+    left: 14px;
+    top: -3px;
     width: 18px;
     height: 18px;
     z-index: 9;
@@ -62,16 +79,22 @@ header{
     text-transform: uppercase;
     line-height: 1.75;
     position: absolute;
-    left: 1738.5px;
-    top: 36.45px;
+    left: 5.8px;
+    top: -1px;
     z-index: 10;
+}
+
+.button-purchase{
+    position: absolute;
+    left: 19.7%;
+    top: 661px;
 }
 
 .rectangle-2{
     background-color: rgb(51, 51, 51);
     position: absolute;
-    left: 375px;
-    top: 662px;
+    left: 0px;
+    top: 0px;
     width: 197px;
     height: 48px;
     z-index: 1;
@@ -98,34 +121,13 @@ header{
     line-height: 1.333;
     text-align: left;
     position: absolute;
-    left: 379px;
+    left: 19.9%;
     top: 343px;
     z-index: 1;
     letter-spacing: 12.2px;
 }
 
-.girl{
-    position: absolute;
-    left: 860px;
-    top: 0px;
-    width: 935px;
-    height: 1001px;
-    z-index: 1;
-}
-
-.bg-copy-3{
-    background-image: -moz-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
-    background-image: -webkit-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
-    background-image: -ms-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1920px;
-    height: 1000px;
-    z-index: 0;
-}
-
-.it-s-your-shine-time{
+h2.it-s-your-shine-time{
     font-size: 100px;
     font-family: "Cormorant Garamond";
     color: rgb(51, 51, 51);
@@ -135,20 +137,42 @@ header{
     line-height: 1;
     text-align: left;
     position: absolute;
-    left: 376px;
-    top: 407px;
-    width: 803px;
+    left: 19.8%;
+    top: 406px;
+    width: 50%;
     height: 253px;
     z-index: 2;
+    display: block;
     letter-spacing: 30px;
+    min-width: 810px;
+}
+
+.girl{
+    position: absolute;
+    left: 45.2%;
+    width: 935px;
+    height: 1001px;
+    z-index: 1;
+}
+
+.bg-copy-3{
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+}
+
+.bg-layer-1{
+    width: 100%;
 }
 
 .social-header{
     width: 122.5px;
     height: 146.09px;
     position: absolute;
-    left: 1698px;
-    top: 430px;
+    right: 4.3%;
+    top: 45.2%;
     z-index: 4;
     display: flex;
     flex-direction: column;
