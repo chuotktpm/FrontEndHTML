@@ -1,8 +1,12 @@
 body{
     margin: 0;
-    width: 100%;
+    max-width: 100%;
     /* overflow-x: hidden; */
 }
+
+html {
+    width: 100%;
+  }
 
 header{
     width: 100%;
@@ -144,7 +148,7 @@ h2.it-s-your-shine-time{
     z-index: 2;
     display: block;
     letter-spacing: 30px;
-    min-width: 810px;
+    /* min-width: 810px; */
 }
 
 .girl{
