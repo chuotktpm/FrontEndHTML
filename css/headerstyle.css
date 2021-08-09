@@ -1,7 +1,7 @@
 body{
     margin: 0;
     max-width: 100%;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 html {
@@ -10,16 +10,30 @@ html {
 
 header{
     width: 100%;
-    height: 1000px;
+    height: max-content;
     background-image: -moz-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
     background-image: -webkit-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
     background-image: -ms-linear-gradient( -18deg, rgb(225,210,195) 0%, rgb(178,158,129) 100%);
+}
 
+header .container{
+    position: relative;
+    height: max-content;
 }
 .menu{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 72px;
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 928px;
+    background-image: url("../image/girl.png"),url("../image/Layer1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
 }
 .logo-main{
     position: absolute;
@@ -28,9 +42,11 @@ header{
     float: left;
     z-index: 1;
 }
-/* .slider{
+.slider > .heading{
     position: absolute;
-} */
+    left: 19.6%;
+    top: 32.6%;
+}
 nav{
     position: absolute;
     right: 5.9%;
@@ -90,13 +106,12 @@ nav{
 
 .button-purchase{
     position: absolute;
-    left: 19.7%;
-    top: 661px;
+    left: 19.6%;
+    top: 591px;
 }
 
 .rectangle-2{
     background-color: rgb(51, 51, 51);
-    position: absolute;
     left: 0px;
     top: 0px;
     width: 197px;
@@ -124,9 +139,6 @@ nav{
     color: rgb(105, 105, 105);
     line-height: 1.333;
     text-align: left;
-    position: absolute;
-    left: 19.9%;
-    top: 343px;
     z-index: 1;
     letter-spacing: 12.2px;
 }
@@ -140,22 +152,30 @@ h2.it-s-your-shine-time{
     text-transform: uppercase;
     line-height: 1;
     text-align: left;
-    position: absolute;
-    left: 19.8%;
-    top: 406px;
     width: 50%;
     height: 253px;
     z-index: 2;
     display: block;
     letter-spacing: 30px;
-    /* min-width: 810px; */
+    min-width: 810px;
 }
+
+/* .bg{
+    position: relative;
+    background-image: url("../image/girl.png"),url("../image/Layer1.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+} */
 
 .girl{
     position: absolute;
     left: 45.2%;
-    width: 935px;
-    height: 1001px;
+    bottom: 0%;
+    /* width: 935px; */
+    /* width: 48.69%; */
+    max-width: 48.69%;
+    /* height: 1001px; */
     z-index: 1;
 }
 
